@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ElDelivery</string>
+    <string name="enter_the_phone_number_to_send_the_ncode_to_verification_phone">Enter the phone Number to send the \ncode to verification phone</string>
 </resources>
