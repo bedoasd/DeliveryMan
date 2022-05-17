@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/drawable-v24/bg_btn.xml" value="0.21574074074074073" />
+        <entry key="..\:/TestsProjects/Delivery/app/src/main/res/drawable-v24/bg_btn_border.xml" value="0.23703703703703705" />
+        <entry key="..\:/TestsProjects/Delivery/app/src/main/res/drawable-v24/bg_btn_login.xml" value="0.23703703703703705" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/drawable-v24/linear_bg.xml" value="0.21574074074074073" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_main.xml" value="0.32222222222222224" />
+        <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/delivery_register.xml" value="0.25" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/welcom.xml" value="0.32222222222222224" />
       </map>
     </option>
