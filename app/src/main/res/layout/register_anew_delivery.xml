@@ -40,33 +40,30 @@
         </LinearLayout>
 
 
-
-
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:layout_below="@id/lin1"
         android:layout_marginTop="20dp"
-        android:paddingHorizontal="16dp"
-        android:layout_below="@id/lin1">
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp">
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:orientation="horizontal"
-            android:background="@drawable/linear_bg"
             android:layout_marginBottom="10dp"
-            >
+            android:background="@drawable/linear_bg"
+            android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:src="@drawable/phone_ico"
+                android:layout_gravity="center"
                 android:layout_marginStart="10dp"
-                android:layout_gravity="center" />
+                android:src="@drawable/person" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -79,20 +76,20 @@
 
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:orientation="horizontal"
-            android:background="@drawable/linear_bg"
             android:layout_marginBottom="10dp"
-            >
+            android:background="@drawable/linear_bg"
+            android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:src="@drawable/phone_ico"
+                android:layout_gravity="center"
                 android:layout_marginStart="10dp"
-                android:layout_gravity="center" />
+                android:src="@drawable/phone_ico" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -105,20 +102,20 @@
 
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:orientation="horizontal"
-            android:background="@drawable/linear_bg"
             android:layout_marginBottom="10dp"
-            >
+            android:background="@drawable/linear_bg"
+            android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:src="@drawable/pass_ico"
+                android:layout_gravity="center"
                 android:layout_marginStart="10dp"
-                android:layout_gravity="center" />
+                android:src="@drawable/pass_ico" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -131,20 +128,20 @@
 
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:orientation="horizontal"
-            android:background="@drawable/linear_bg"
             android:layout_marginBottom="10dp"
-            >
+            android:background="@drawable/linear_bg"
+            android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:src="@drawable/pass_ico"
+                android:layout_gravity="center"
                 android:layout_marginStart="10dp"
-                android:layout_gravity="center" />
+                android:src="@drawable/pass_ico" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -158,19 +155,55 @@
 
         </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:orientation="vertical"
-        android:background="@drawable/linear_bg"
-        android:layout_marginBottom="10dp"
-        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/linear_bg"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/person" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Image Driver"
+                android:textColor="#5A5858"
+                android:textSize="18sp" />
 
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/linear_bg"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/license" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Driving Licence"
+                android:textColor="#5A5858"
+                android:textSize="18sp" />
 
 
-    </LinearLayout>
-
+        </LinearLayout>
 
 
 
