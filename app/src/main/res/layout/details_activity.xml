@@ -137,14 +137,7 @@
             android:layout_marginBottom="10dp"
             android:background="#787676" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="Order Details :"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+
 
         <View
             android:layout_width="match_parent"
