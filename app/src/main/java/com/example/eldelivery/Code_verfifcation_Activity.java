@@ -8,18 +8,20 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class MobileNumber_verification extends AppCompatActivity {
+public class Code_verfifcation_Activity extends AppCompatActivity {
 
     private ImageView back;
-    private Button send_code;
+    private Button recover_pass_btn;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.verification_phone);
+        setContentView(R.layout.verification_code);
 
-        back=findViewById(R.id.back_mobile_number);
-        send_code=findViewById(R.id.mobilenumber_send_code);
+        back=findViewById(R.id.back_code_verification);
+        recover_pass_btn=findViewById(R.id.password_recovery_btn);
+
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,13 +30,11 @@ public class MobileNumber_verification extends AppCompatActivity {
             }
         });
 
-        send_code.setOnClickListener(new View.OnClickListener() {
+        recover_pass_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MobileNumber_verification.this,Code_verfifcation_Activity.class));
+                startActivity(new Intent(Code_verfifcation_Activity.this,NewPasswordActivity.class));
             }
         });
-
-
     }
 }

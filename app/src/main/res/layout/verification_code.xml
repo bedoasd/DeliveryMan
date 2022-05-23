@@ -6,7 +6,7 @@
 
 
     <ImageView
-        android:id="@+id/back_deliverylogin"
+        android:id="@+id/back_code_verification"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
@@ -19,13 +19,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/txt1">
+
         <ImageView
             android:id="@+id/logo"
             android:layout_width="160dp"
             android:layout_height="160dp"
-            android:layout_marginBottom="20dp"
-            android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
             android:src="@drawable/logo" />
     </RelativeLayout>
 
@@ -75,6 +76,7 @@
 
 
         <Button
+            android:id="@+id/password_recovery_btn"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="24dp"

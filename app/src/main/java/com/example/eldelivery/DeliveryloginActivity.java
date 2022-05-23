@@ -7,6 +7,7 @@ import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -16,6 +17,7 @@ public class DeliveryloginActivity extends AppCompatActivity {
 
     private ImageView back;
     private TextView forgotpassword;
+
 
 
     @Override

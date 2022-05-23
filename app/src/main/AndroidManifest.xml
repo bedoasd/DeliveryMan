@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ElDelivery">
         <activity
+            android:name=".NewPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Code_verfifcation_Activity"
+            android:exported="false" />
+        <activity
             android:name=".MobileNumber_verification"
             android:exported="false" />
         <activity
