@@ -6,7 +6,7 @@
 
 
     <ImageView
-        android:id="@+id/back"
+        android:id="@+id/back_deliverylogin"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
@@ -19,7 +19,7 @@
         android:layout_width="160dp"
         android:layout_height="160dp"
         android:layout_above="@id/linear"
-        android:layout_below="@id/back"
+        android:layout_below="@id/back_deliverylogin"
         android:layout_centerInParent="true"
         android:src="@drawable/logo" />
 
@@ -88,6 +88,7 @@
         </LinearLayout>
 
         <TextView
+            android:id="@+id/forgotpassword_delivery_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"

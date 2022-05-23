@@ -16,7 +16,10 @@
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/drawable/ic_launcher_background.xml" value="0.23703703703703705" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_main_user.xml" value="0.25" />
+        <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_mobile_number_verification.xml" value="0.28421052631578947" />
+        <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/delivery_login.xml" value="0.25" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/delivery_register.xml" value="0.25" />
+        <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/deliverylogin.xml" value="0.2805194805194805" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/details_activity.xml" value="0.25" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/item_history_requests.xml" value="0.28421052631578947" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/item_orders_accepted.xml" value="0.25" />

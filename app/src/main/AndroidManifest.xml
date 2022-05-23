@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ElDelivery">
         <activity
+            android:name=".MobileNumber_verification"
+            android:exported="false" />
+        <activity
+            android:name=".DeliveryloginActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
