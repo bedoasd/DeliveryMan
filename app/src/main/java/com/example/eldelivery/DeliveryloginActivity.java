@@ -17,6 +17,7 @@ public class DeliveryloginActivity extends AppCompatActivity {
 
     private ImageView back;
     private TextView forgotpassword;
+    private TextView signuptxt;
 
 
 
@@ -27,6 +28,7 @@ public class DeliveryloginActivity extends AppCompatActivity {
 
         back=findViewById(R.id.back_deliverylogin);
         forgotpassword=findViewById(R.id.forgotpassword_delivery_login);
+        signuptxt=findViewById(R.id.signuptxt_deliver_version);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +42,14 @@ public class DeliveryloginActivity extends AppCompatActivity {
                 startActivity(new Intent(DeliveryloginActivity.this,MobileNumber_verification.class));
             }
         });
+        signuptxt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(DeliveryloginActivity.this,Mobilenumber_verification_signup.class));
+            }
+        });
+
+
 
     }
 }

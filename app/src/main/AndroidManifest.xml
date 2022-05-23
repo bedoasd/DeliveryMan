@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ElDelivery">
         <activity
+            android:name=".Home_Delivery_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".RegiateAnewDelivery"
+            android:exported="false" />
+        <activity
+            android:name=".Code_verification_signup"
+            android:exported="false" />
+        <activity
+            android:name=".Mobilenumber_verification_signup"
+            android:exported="false" />
+        <activity
             android:name=".NewPasswordActivity"
             android:exported="false" />
         <activity

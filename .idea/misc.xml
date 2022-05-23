@@ -15,10 +15,15 @@
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/drawable-v24/linear_bg.xml" value="0.21574074074074073" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/drawable/ic_launcher_background.xml" value="0.23703703703703705" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_code_verfifcation.xml" value="0.28421052631578947" />
+        <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_code_verification_signup.xml" value="0.28421052631578947" />
+        <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_home.xml" value="0.28421052631578947" />
+        <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_home_delivery.xml" value="0.28421052631578947" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_main_user.xml" value="0.25" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_mobile_number_verification.xml" value="0.28421052631578947" />
+        <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_mobilenumber_verification_signup.xml" value="0.28421052631578947" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_new_password.xml" value="0.28421052631578947" />
+        <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_regiate_anew_delivery.xml" value="0.28421052631578947" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/delivery_login.xml" value="0.25" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/delivery_register.xml" value="0.25" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/deliverylogin.xml" value="0.2805194805194805" />
@@ -33,6 +38,7 @@
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/verification_code.xml" value="0.25" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/verification_code_next.xml" value="0.28421052631578947" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/verification_phone.xml" value="0.25" />
+        <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/verification_phone_signup.xml" value="0.28421052631578947" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/welcom.xml" value="0.32222222222222224" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/menu/bottom_navigatiion.xml" value="0.28421052631578947" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/menu/bottom_navigatiion_user.xml" value="0.28421052631578947" />

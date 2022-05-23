@@ -6,7 +6,7 @@
 
 
     <ImageView
-        android:id="@+id/back_code_verification_signup"
+        android:id="@+id/back_mobile_number_signup"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
@@ -38,7 +38,7 @@
         android:layout_above="@id/linear"
         android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:text="Enter the code sent on your phone \n to register"
+        android:text="@string/enter_the_phone_number_to_send_the_ncode_to_verification_phone"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="18sp"
@@ -47,7 +47,7 @@
         />
     <LinearLayout
         android:id="@id/linear"
-        android:layout_width="270dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginHorizontal="16dp"
@@ -60,14 +60,20 @@
             android:background="@drawable/linear_bg"
             android:orientation="horizontal">
 
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/phone_ico" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="10dp"
                 android:background="@android:color/transparent"
-                android:hint="code"
-                android:gravity="center"
+                android:hint="Mobile Number"
+
                 />
 
 
@@ -75,16 +81,16 @@
 
 
 
-        <Button
-            android:id="@+id/nextbtn_signup"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginTop="24dp"
-            android:background="@drawable/bg_btn_login"
-            android:text="Next"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:textSize="20sp" />
+                <Button
+                    android:id="@+id/mobilenumber_signup_send_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/bg_btn_login"
+                    android:text="Send Code"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
 
 
 
