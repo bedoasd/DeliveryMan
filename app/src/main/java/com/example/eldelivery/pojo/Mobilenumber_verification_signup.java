@@ -1,4 +1,4 @@
-package com.example.eldelivery;
+package com.example.eldelivery.pojo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,18 +8,21 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class MobileNumber_verification extends AppCompatActivity {
+import com.example.eldelivery.R;
 
-    private ImageView back;
+public class Mobilenumber_verification_signup extends AppCompatActivity {
+
     private Button send_code;
+    private ImageView back;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.verification_phone);
+        setContentView(R.layout.verification_phone_signup);
 
-        back=findViewById(R.id.back_mobile_number);
-        send_code=findViewById(R.id.mobilenumber_send_code);
+        send_code=findViewById(R.id.mobilenumber_signup_send_code);
+        back=findViewById(R.id.back_mobile_number_signup);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -27,14 +30,11 @@ public class MobileNumber_verification extends AppCompatActivity {
                 finish();
             }
         });
-
         send_code.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MobileNumber_verification.this,Code_verfifcation_Activity.class));
+            startActivity(new Intent(Mobilenumber_verification_signup.this,Code_verification_signup.class));
             }
         });
-
-
     }
 }

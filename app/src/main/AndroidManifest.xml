@@ -10,31 +10,31 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ElDelivery">
         <activity
-            android:name=".Home_Delivery_Activity"
+            android:name=".pojo.Home_Delivery_Activity"
             android:exported="false" />
         <activity
-            android:name=".RegiateAnewDelivery"
+            android:name=".pojo.RegiateAnewDelivery"
             android:exported="false" />
         <activity
-            android:name=".Code_verification_signup"
+            android:name=".pojo.Code_verification_signup"
             android:exported="false" />
         <activity
-            android:name=".Mobilenumber_verification_signup"
+            android:name=".pojo.Mobilenumber_verification_signup"
             android:exported="false" />
         <activity
-            android:name=".NewPasswordActivity"
+            android:name=".pojo.NewPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".Code_verfifcation_Activity"
+            android:name=".pojo.Code_verfifcation_Activity"
             android:exported="false" />
         <activity
-            android:name=".MobileNumber_verification"
+            android:name=".pojo.MobileNumber_verification"
             android:exported="false" />
         <activity
-            android:name=".DeliveryloginActivity"
+            android:name=".pojo.DeliveryloginActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".pojo.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

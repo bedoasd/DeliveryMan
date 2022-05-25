@@ -1,4 +1,4 @@
-package com.example.eldelivery;
+package com.example.eldelivery.pojo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,20 +8,20 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class Code_verfifcation_Activity extends AppCompatActivity {
+import com.example.eldelivery.R;
+
+public class MobileNumber_verification extends AppCompatActivity {
 
     private ImageView back;
-    private Button recover_pass_btn;
-
+    private Button send_code;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.verification_code);
+        setContentView(R.layout.verification_phone);
 
-        back=findViewById(R.id.back_code_verification);
-        recover_pass_btn=findViewById(R.id.password_recovery_btn);
-
+        back=findViewById(R.id.back_mobile_number);
+        send_code=findViewById(R.id.mobilenumber_send_code);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,11 +30,13 @@ public class Code_verfifcation_Activity extends AppCompatActivity {
             }
         });
 
-        recover_pass_btn.setOnClickListener(new View.OnClickListener() {
+        send_code.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Code_verfifcation_Activity.this,NewPasswordActivity.class));
+                startActivity(new Intent(MobileNumber_verification.this,Code_verfifcation_Activity.class));
             }
         });
+
+
     }
 }

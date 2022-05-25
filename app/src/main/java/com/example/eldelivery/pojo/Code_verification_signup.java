@@ -1,4 +1,4 @@
-package com.example.eldelivery;
+package com.example.eldelivery.pojo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+
+import com.example.eldelivery.R;
 
 public class Code_verification_signup extends AppCompatActivity {
 

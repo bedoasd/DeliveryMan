@@ -47,6 +47,7 @@
                     android:textSize="18sp" />
 
                 <TextView
+                    android:id="@+id/order_D_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
@@ -71,6 +72,7 @@
                     android:textSize="18sp" />
 
                 <TextView
+                    android:id="@+id/order_D_from"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
@@ -96,6 +98,7 @@
                     android:textSize="18sp" />
 
                 <TextView
+                    android:id="@+id/order_D_to"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
@@ -121,6 +124,7 @@
                     android:textSize="18sp" />
 
                 <TextView
+                    android:id="@+id/order_D_price"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
@@ -142,28 +146,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:paddingHorizontal="30dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:paddingHorizontal="30dp">
 
                 <Button
-                    android:layout_weight="2"
                     android:layout_width="0dp"
                     android:layout_height="40dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_weight="2"
                     android:background="@drawable/bg_btn"
                     android:text="Accepted"
-                    android:layout_marginEnd="30dp"
-                    android:textColor="@color/white"
                     android:textAllCaps="false"
-                    />
+                    android:textColor="@color/white" />
+
                 <Button
-                    android:layout_weight="2"
                     android:layout_width="0dp"
                     android:layout_height="40dp"
+                    android:layout_weight="2"
                     android:background="@drawable/bg_btn_border"
                     android:text="Accepted"
-                    android:textColor="@color/blue"
                     android:textAllCaps="false"
-                    />
+                    android:textColor="@color/blue" />
 
 
             </LinearLayout>
