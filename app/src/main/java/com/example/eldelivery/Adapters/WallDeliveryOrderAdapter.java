@@ -1,10 +1,13 @@
 package com.example.eldelivery.Adapters;
 
-import android.content.Context;
+import android.content.Intent;
+import android.telecom.Call;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -12,6 +15,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.eldelivery.Fragment.WallFragment;
 import com.example.eldelivery.R;
 import com.example.eldelivery.model.Wall_Delivery_Order_Model;
+import com.example.eldelivery.pojo.Code_verfifcation_Activity;
+import com.example.eldelivery.pojo.DetailsActivity;
+import com.example.eldelivery.pojo.NewPasswordActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,6 +47,15 @@ import java.util.List;
          holder.from.setText(orders_list.get(position).getFrom());
          holder.to.setText(orders_list.get(position).getTo());
          holder.price.setText(orders_list.get(position).getPrice());
+
+         holder.acceptedbtn.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+                Intent intent=new Intent(mfragment.getActivity(), DetailsActivity.class);
+                mfragment.startActivity(intent);
+
+             }
+         });
 
      }
 
@@ -86,6 +101,8 @@ import java.util.List;
         TextView from;
         TextView to;
         TextView price;
+        Button acceptedbtn;
+
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
@@ -93,6 +110,8 @@ import java.util.List;
             from = itemView.findViewById(R.id.order_D_from);
             to = itemView.findViewById(R.id.order_D_to);
             price = itemView.findViewById(R.id.order_D_price);
+            acceptedbtn = itemView.findViewById(R.id.Acceptedbtn);
+
 
         }
     }

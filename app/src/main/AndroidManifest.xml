@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ElDelivery">
         <activity
+            android:name=".pojo.DetailsActivity"
+            android:exported="false" />
+        <activity
             android:name=".pojo.Home_Delivery_Activity"
             android:exported="false" />
         <activity

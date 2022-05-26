@@ -16,7 +16,8 @@
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/drawable/ic_launcher_background.xml" value="0.23703703703703705" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_code_verfifcation.xml" value="0.28421052631578947" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_code_verification_signup.xml" value="0.28421052631578947" />
-        <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_home.xml" value="0.28421052631578947" />
+        <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_details.xml" value="0.2723684210526316" />
+        <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_home_delivery.xml" value="0.28421052631578947" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/activity_main_user.xml" value="0.25" />
@@ -28,10 +29,10 @@
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/delivery_register.xml" value="0.25" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/deliverylogin.xml" value="0.2805194805194805" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/details_activity.xml" value="0.25" />
-        <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/fragment_accepted_order.xml" value="0.28421052631578947" />
+        <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/fragment_accepted_order.xml" value="0.25" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/fragment_wall.xml" value="0.28421052631578947" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/item_history_requests.xml" value="0.28421052631578947" />
-        <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/item_orders_accepted.xml" value="0.25" />
+        <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/item_orders_accepted.xml" value="0.33" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/item_profile_delivery.xml" value="0.28421052631578947" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/item_wall_requests.xml" value="0.25" />
         <entry key="..\:/TestsProjects/Delivery/app/src/main/res/layout/newpassword.xml" value="0.25" />

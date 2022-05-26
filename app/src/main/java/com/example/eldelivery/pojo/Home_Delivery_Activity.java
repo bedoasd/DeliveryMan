@@ -9,6 +9,7 @@ import android.content.SharedPreferences;
 import android.content.res.ColorStateList;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 import com.example.eldelivery.Fragment.AcceptedOrderFragment;
 import com.example.eldelivery.Fragment.WallFragment;
@@ -17,6 +18,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Home_Delivery_Activity extends AppCompatActivity {
 
+    TextView header;
     private BottomNavigationView bottomNavigationView;
     Fragment selectedfragment=null;
 
@@ -27,7 +29,7 @@ public class Home_Delivery_Activity extends AppCompatActivity {
 
         bottomNavigationView=findViewById(R.id.bottom_navigation);
         bottomNavigationView.setOnNavigationItemSelectedListener(navigationItemSelectedListener);
-
+        header=findViewById(R.id.header);
 
 
     }
@@ -40,13 +42,13 @@ public class Home_Delivery_Activity extends AppCompatActivity {
 
                         case R.id.nav_wall :
                             selectedfragment=new WallFragment();
-                            menuItem.setIcon(R.drawable.home2);
-                            
+                            header.setText("Orders Wall");
                             break;
 
 
                         case R.id.nav_accepted :
                             selectedfragment=new AcceptedOrderFragment();
+                            header.setText("Accepted Orders");
                             break;
 
 
