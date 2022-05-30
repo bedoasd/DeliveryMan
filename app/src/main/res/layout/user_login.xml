@@ -6,7 +6,7 @@
 
 
     <ImageView
-        android:id="@+id/back_deliverylogin"
+        android:id="@+id/back_user_login"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
@@ -88,7 +88,7 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/forgotpassword_delivery_login"
+            android:id="@+id/forgotpassword_user_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
@@ -119,17 +119,16 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Do you want to register as Delivery?"
+                android:text="Do you want to register as User?"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
             <TextView
-                android:id="@+id/signuptxt_deliver_version"
+                android:id="@+id/signuptxt_user_version"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=" signup"
                 android:textColor="@color/blue"
-
                 android:textSize="16sp" />
 
 
@@ -145,9 +144,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="25dp"
-        android:text="The Delivery Version"
+        android:text="The User Version ."
         android:textColor="@color/black"
         android:textSize="20sp" />
-
 
 </RelativeLayout>

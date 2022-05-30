@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.eldelivery.Fragment.AcceptedOrderFragment;
 import com.example.eldelivery.R;
 import com.example.eldelivery.model.Wall_Delivery_Order_Model;
-import com.example.eldelivery.pojo.DetailsActivity;
+import com.example.eldelivery.pojo_delivery.DetailsActivity;
 
 import java.util.ArrayList;
 import java.util.List;

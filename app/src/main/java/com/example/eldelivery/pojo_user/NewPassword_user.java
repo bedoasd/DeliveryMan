@@ -1,15 +1,14 @@
-package com.example.eldelivery.pojo;
+package com.example.eldelivery.pojo_user;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 
 import com.example.eldelivery.R;
 
-public class DetailsActivity extends AppCompatActivity {
+public class NewPassword_user extends AppCompatActivity {
 
     private ImageView back;
 
@@ -17,16 +16,17 @@ public class DetailsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.details_activity);
+        setContentView(R.layout.newpassword_user);
 
-        back=findViewById(R.id.back_details_screen);
 
+        back=findViewById(R.id.back_newpassword_user);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 finish();
             }
         });
+
 
     }
 }

@@ -1,4 +1,4 @@
-package com.example.eldelivery.pojo;
+package com.example.eldelivery.pojo_delivery;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,20 +10,19 @@ import android.widget.ImageView;
 
 import com.example.eldelivery.R;
 
-public class Code_verfifcation_Activity extends AppCompatActivity {
+public class RegiateAnewDelivery extends AppCompatActivity {
 
     private ImageView back;
-    private Button recover_pass_btn;
+    private Button signup;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.verification_code);
+        setContentView(R.layout.register_anew_delivery);
 
-        back=findViewById(R.id.back_code_verification);
-        recover_pass_btn=findViewById(R.id.password_recovery_btn);
-
+        back=findViewById(R.id.back_newdeliver_signup);
+        signup=findViewById(R.id.signup);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,12 +30,12 @@ public class Code_verfifcation_Activity extends AppCompatActivity {
                 finish();
             }
         });
-
-        recover_pass_btn.setOnClickListener(new View.OnClickListener() {
+        signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Code_verfifcation_Activity.this,NewPasswordActivity.class));
+                startActivity(new Intent(RegiateAnewDelivery.this,Home_Delivery_Activity.class));
             }
         });
+
     }
 }

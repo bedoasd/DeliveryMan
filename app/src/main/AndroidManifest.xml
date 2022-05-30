@@ -10,34 +10,46 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ElDelivery">
         <activity
-            android:name=".pojo.DetailsActivity"
+            android:name=".pojo_user.NewPassword_user"
             android:exported="false" />
         <activity
-            android:name=".pojo.Home_Delivery_Activity"
+            android:name=".pojo_user.Code_Verification_User_Activity"
             android:exported="false" />
         <activity
-            android:name=".pojo.RegiateAnewDelivery"
+            android:name=".pojo_user.Mobile_mumber_verification_User"
             android:exported="false" />
         <activity
-            android:name=".pojo.Code_verification_signup"
+            android:name=".pojo_user.User_Login"
             android:exported="false" />
         <activity
-            android:name=".pojo.Mobilenumber_verification_signup"
+            android:name=".pojo_delivery.DetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".pojo.NewPasswordActivity"
+            android:name=".pojo_delivery.Home_Delivery_Activity"
             android:exported="false" />
         <activity
-            android:name=".pojo.Code_verfifcation_Activity"
+            android:name=".pojo_delivery.RegiateAnewDelivery"
             android:exported="false" />
         <activity
-            android:name=".pojo.MobileNumber_verification"
+            android:name=".pojo_delivery.Code_verification_signup"
             android:exported="false" />
         <activity
-            android:name=".pojo.DeliveryloginActivity"
+            android:name=".pojo_delivery.Mobilenumber_verification_signup"
             android:exported="false" />
         <activity
-            android:name=".pojo.MainActivity"
+            android:name=".pojo_delivery.NewPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pojo_delivery.Code_verfifcation_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".pojo_delivery.MobileNumber_verification"
+            android:exported="false" />
+        <activity
+            android:name=".pojo_delivery.DeliveryloginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pojo_delivery.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

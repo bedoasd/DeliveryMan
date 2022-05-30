@@ -1,4 +1,4 @@
-package com.example.eldelivery.pojo;
+package com.example.eldelivery.pojo_user;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,23 +9,24 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.eldelivery.R;
+import com.example.eldelivery.pojo_delivery.DeliveryloginActivity;
+import com.example.eldelivery.pojo_delivery.MobileNumber_verification;
+import com.example.eldelivery.pojo_delivery.Mobilenumber_verification_signup;
 
-public class DeliveryloginActivity extends AppCompatActivity {
+public class User_Login extends AppCompatActivity {
 
     private ImageView back;
     private TextView forgotpassword;
     private TextView signuptxt;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.delivery_login);
+        setContentView(R.layout.user_login);
 
-        back=findViewById(R.id.back_deliverylogin);
-        forgotpassword=findViewById(R.id.forgotpassword_delivery_login);
-        signuptxt=findViewById(R.id.signuptxt_deliver_version);
+        back=findViewById(R.id.back_user_login);
+        forgotpassword=findViewById(R.id.forgotpassword_user_login);
+        signuptxt=findViewById(R.id.signuptxt_user_version);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,17 +37,15 @@ public class DeliveryloginActivity extends AppCompatActivity {
         forgotpassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DeliveryloginActivity.this,MobileNumber_verification.class));
+                startActivity(new Intent(User_Login.this, Mobile_mumber_verification_User.class));
             }
         });
         signuptxt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DeliveryloginActivity.this,Mobilenumber_verification_signup.class));
+                startActivity(new Intent(User_Login.this, Mobilenumber_verification_signup.class));
             }
         });
-
-
 
     }
 }

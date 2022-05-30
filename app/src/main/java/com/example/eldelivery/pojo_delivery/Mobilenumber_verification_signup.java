@@ -1,4 +1,4 @@
-package com.example.eldelivery.pojo;
+package com.example.eldelivery.pojo_delivery;
 
 import androidx.appcompat.app.AppCompatActivity;
 

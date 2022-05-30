@@ -1,4 +1,4 @@
-package com.example.eldelivery.pojo;
+package com.example.eldelivery.pojo_delivery;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,19 +10,20 @@ import android.widget.ImageView;
 
 import com.example.eldelivery.R;
 
-public class RegiateAnewDelivery extends AppCompatActivity {
+public class Code_verification_signup extends AppCompatActivity {
 
     private ImageView back;
-    private Button signup;
-
+    private Button nextbtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.register_anew_delivery);
+        setContentView(R.layout.verification_code_next);
 
-        back=findViewById(R.id.back_newdeliver_signup);
-        signup=findViewById(R.id.signup);
+        back=findViewById(R.id.back_code_verification_signup);
+        nextbtn=findViewById(R.id.nextbtn_signup);
+
+
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,10 +31,10 @@ public class RegiateAnewDelivery extends AppCompatActivity {
                 finish();
             }
         });
-        signup.setOnClickListener(new View.OnClickListener() {
+        nextbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(RegiateAnewDelivery.this,Home_Delivery_Activity.class));
+                startActivity(new Intent(Code_verification_signup.this,RegiateAnewDelivery.class));
             }
         });
 

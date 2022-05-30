@@ -1,13 +1,11 @@
 package com.example.eldelivery.Adapters;
 
 import android.content.Intent;
-import android.telecom.Call;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -15,9 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.eldelivery.Fragment.WallFragment;
 import com.example.eldelivery.R;
 import com.example.eldelivery.model.Wall_Delivery_Order_Model;
-import com.example.eldelivery.pojo.Code_verfifcation_Activity;
-import com.example.eldelivery.pojo.DetailsActivity;
-import com.example.eldelivery.pojo.NewPasswordActivity;
+import com.example.eldelivery.pojo_delivery.DetailsActivity;
 
 import java.util.ArrayList;
 import java.util.List;
