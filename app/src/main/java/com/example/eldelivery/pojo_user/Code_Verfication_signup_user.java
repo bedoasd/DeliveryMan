@@ -34,7 +34,7 @@ public class Code_Verfication_signup_user extends AppCompatActivity {
         nextbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               startActivity(new Intent(Code_Verfication_signup_user.this, RegiateAnewDelivery.class));
+               startActivity(new Intent(Code_Verfication_signup_user.this, Register_Anew_User.class));
             }
         });
 
