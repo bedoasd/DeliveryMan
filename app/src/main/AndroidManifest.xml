@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ElDelivery">
         <activity
+            android:name=".pojo_user.Register_Anew_User"
+            android:exported="false" />
+        <activity
+            android:name=".pojo_user.Mobile_Number_Verification_Signup_user"
+            android:exported="false" />
+        <activity
+            android:name=".pojo_user.Code_Verfication_signup_user"
+            android:exported="false" />
+        <activity
             android:name=".pojo_user.NewPassword_user"
             android:exported="false" />
         <activity

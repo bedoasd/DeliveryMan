@@ -43,7 +43,7 @@ public class User_Login extends AppCompatActivity {
         signuptxt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(User_Login.this, Mobilenumber_verification_signup.class));
+                startActivity(new Intent(User_Login.this, Mobile_Number_Verification_Signup_user.class));
             }
         });
 

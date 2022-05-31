@@ -19,7 +19,6 @@
         android:layout_width="160dp"
         android:layout_height="160dp"
         android:layout_above="@id/linear"
-        android:layout_below="@id/back_deliverylogin"
         android:layout_centerInParent="true"
         android:src="@drawable/logo" />
 

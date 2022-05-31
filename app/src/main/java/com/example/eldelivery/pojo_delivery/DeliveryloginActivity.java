@@ -37,7 +37,7 @@ public class DeliveryloginActivity extends AppCompatActivity {
         forgotpassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DeliveryloginActivity.this, Mobile_mumber_verification_User.class));
+                startActivity(new Intent(DeliveryloginActivity.this, MobileNumber_verification.class));
             }
         });
         signuptxt.setOnClickListener(new View.OnClickListener() {

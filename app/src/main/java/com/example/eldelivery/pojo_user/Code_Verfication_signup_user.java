@@ -9,22 +9,21 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.example.eldelivery.R;
-import com.example.eldelivery.pojo_delivery.Code_verfifcation_Activity;
-import com.example.eldelivery.pojo_delivery.NewPasswordActivity;
+import com.example.eldelivery.pojo_delivery.RegiateAnewDelivery;
 
-public class Code_Verification_User_Activity extends AppCompatActivity {
+public class Code_Verfication_signup_user extends AppCompatActivity {
 
+
+    private Button nextbtn;
     private ImageView back;
-    private Button recover_pass_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.verification_code_user);
+        setContentView(R.layout.verification_code_next_user);
 
-        back=findViewById(R.id.back_code_verification_user);
-        recover_pass_btn=findViewById(R.id.password_recovery_btn_user);
-
+        nextbtn=findViewById(R.id.nextbtn_signup_user);
+        back=findViewById(R.id.back_code_verification_signup_user);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,11 +31,10 @@ public class Code_Verification_User_Activity extends AppCompatActivity {
                 finish();
             }
         });
-
-        recover_pass_btn.setOnClickListener(new View.OnClickListener() {
+        nextbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-             startActivity(new Intent(Code_Verification_User_Activity.this, NewPassword_user.class));
+               startActivity(new Intent(Code_Verfication_signup_user.this, RegiateAnewDelivery.class));
             }
         });
 
